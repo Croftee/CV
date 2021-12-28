@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <script src="index.js"></script>
+  <script src="js\form.js"></script>
 
   <div class="heading">
     <h1 class="headertext">Tony Crofton</h1>
@@ -46,11 +46,9 @@
   <hr>
   <div class="divmargin">
     <h2>Contact Me</h2>
-    <form class="contact" action="index.html" method="post" enctype="text/plain">
-      <label>Your Email</label><br>
-      <input type="email" class="inputarea email"><br>
-      <label>Your Message</label><br>
-      <textarea rows="8" cols="50" class="inputarea"></textarea><br>
+    <form class="contact" onsubmit="return false" enctype="text/plain">
+      <input type="email" placeholder="Enter your email" class="inputarea email"><br>
+      <textarea rows="8" cols="50" placeholder="Type your message 🙂" class="inputarea"></textarea><br>
       <input type="submit" value="Send Message" class="submitButton">
     </form>
   </div>
