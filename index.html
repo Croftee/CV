@@ -5,62 +5,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tony Crofton | Developer | Tech Enthusiast</title>
+  <title>Tony Crofton | Developer | Tech Enthusiast | Coffee Consumer</title>
   <link rel="stylesheet" href="css\style.css">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <script src="index.js"></script>
 
-  <div id="welcome" >
-    <h1>Tony Crofton</h1>
-    <img src="img\me.jpg" id="me">
+  <div class="heading">
+    <h1 class="headertext">Tony Crofton</h1>
+    <div class="profile_container"><img src="img\me.jpg" alt="profile-pic" class="profilepic"></div>
+    <p class="stub">Developer &nbsp;  ❤️ &nbsp; Tech Enthusiast &nbsp; 💾 &nbsp; Coffee Drinker &nbsp; ☕</p>
   </div>
 
-  <div id="about">
+  <div class="divmargin">
     <h2>About Me</h2>
-    
-    <p>An IT professional with extensive experience across the client, server, and infrastructure spaces, particularly
+    <p>An IT professional with extensive experience across the client, server, and infrastructure spaces; particularly
       with Microsoft technologies. Recently I have made the decision to pivot into development and have been
       busy upskilling to make this a reality. This micro site will serve as an introduction to what I can offer a
-      propective hirer who is willing to take a chance on an old(ish) dog always learning new tricks ;)</p>
+      prospective hirer who is willing to take a chance on an old(ish) dog learning new tricks ;)</p>
   </div>
-        <hr>
-  <div id="skills" >
+  <hr>
+  <div class="divmargin">
     <h2>Skills</h2>
-    <table id="skillsTable" cellspacing="20">
-      <tr>
-        <td>HTML</td>
-        <td>CSS</td>
-        <td>Javascript
-      </tr>
-      <tr>
-        <td>Powershell</td>
-        <td>PHP</td>
-        <td>Sarcasm</td>
-      </tr>
-      <tr>
-        <td>Swearing</td>
-        <td>Tea Making</td>
-        <td>Something Else</td>
-      </tr>
-    </table>
+    <div class="logoContainer"><img src="img/html-css-java.png" alt="html-css-javascript-logos" class="logos"></div>
   </div>
   <hr>
-  <div id="portfolio" >
-      <h2>Portfolio</h2>
-      <ul>
-        <li>Stuff</li>
-        <li>Stuff</li>
-        <li>Stuff</li>
-        <li>Stuff</li>
-        <li>Stuff</li>
-        <li>Stuff</li>
-        <li>Stuff</li>
-      </ul>
+  <div class="divmargin">
+    <h2>Portfolio</h2>
+    <ul>
+      <li>Stuff</li>
+      <li>Stuff</li>
+      <li>Stuff</li>
+      <li>Stuff</li>
+      <li>Stuff</li>
+      <li>Stuff</li>
+      <li>Stuff</li>
+    </ul>
   </div>
   <hr>
-  <div id="contact" >
+  <div class="divmargin">
     <h2>Contact Me</h2>
     <form class="contact" action="index.html" method="post" enctype="text/plain">
       <label>Email Address:</label>
@@ -69,7 +59,7 @@
       <textarea rows="8" cols="30"></textarea><br>
       <input type="submit">
     </form>
-</div>
+  </div>
 
 </body>
 
