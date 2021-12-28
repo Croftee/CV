@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#FFF5EB,#DEEDF0,#F4C7AB, #B2B8A3);
+    background: linear-gradient(#FFF5EB, #DEEDF0, #F4C7AB, #B2B8A3);
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
@@ -21,18 +21,18 @@ hr {
     font-family: 'Montserrat', sans-serif;
     color: #B2B8A3;
     text-shadow: 2px 2px 2px rgb(53, 52, 52);
-    padding-top:20px;
-    padding-bottom:0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
-.heading{
+.heading {
     background-color: black;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
-.stub{
+.stub {
     font-family: 'The Nautigal', cursive;
     text-align: center;
     color: #B2B8A3;
@@ -54,26 +54,26 @@ h3 {
 .profilepic {
     border-radius: 20%;
     width: 20%;
-    margin-top:20px;
-    margin-bottom:30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
-.profile_container{
+.profile_container {
     text-align: center;
 }
 
-.logoContainer{
+.logoContainer {
     text-align: center;
 }
 
-.logos{
+.logos {
     width: 50%;
     padding: 80px;
     background-color: white;
     border-radius: 20%;
 }
 
-.divmargin{
+.divmargin {
     text-align: justify;
     margin-top: 0px;
     margin-bottom: 50px;
@@ -81,13 +81,66 @@ h3 {
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 30px;
-    
 }
 
 
-p
-{
+.carouselContainer {
+    text-align: center;
+}
+
+p {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+}
+
+
+.contact {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+label {
+    margin: 20px;
+}
+
+.inputarea {
+    margin: 20px;
+    padding: 10px;
+    border-style: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.email {
+    text-align: center;
+    width: 350px;
+}
+
+.submitButton {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 15px;
+    background-color: #DEEDF0;
+    border-style: none;
+}
+
+.submitButton:hover {
+    background-color: #F4C7AB;
+}
+
+.socialContainer {
+    display: block;
+    text-align: center;
+}
+
+.socialIcon {
+    width: 5%;
+    background-color: white;
+    border-radius: 15%;
+    margin: 20px;
 }
