@@ -1,0 +1,11 @@
+body{
+    background: linear-gradient(lightsteelblue, rgb(126, 172, 231), lightsteelblue);
+}
+
+hr{
+    border-style: none;
+    border-top-style:dotted;
+    width: 15%;
+    border-color:linen;
+    border-width: 15px;
+}
