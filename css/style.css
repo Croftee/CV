@@ -108,8 +108,13 @@ label {
     margin: 20px;
 }
 
+.formcontainer{
+    text-align: center;
+}
+
 .inputarea {
     margin: 20px;
+    max-width: 80%;
     padding: 10px;
     border-style: none;
     font-size: 1.2em;
@@ -124,6 +129,7 @@ label {
 }
 
 .submitButton {
+    margin: 20px;
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
